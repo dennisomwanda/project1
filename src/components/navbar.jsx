@@ -21,12 +21,13 @@ function Navbar() {
     return (
 
     <nav className="nav">
-        <a href="#" className="nav_brand">YOURLOGO</a>
+        
+        <a href="#" className="nav_brand" ><img src="projectlogo.png"/> </a>
         <ul className={active}>
             <button className="nav_item"><a href="#" className="nav_link">Home</a></button>
-            <li className="nav_item"><a href="#" className="nav_link">Upcoming Treks</a></li>
-            <li className="nav_item"><a href="#" className="nav_link">About</a></li>
-            <li className="nav_item"><a href="#" className="nav_link">Contact</a></li>
+            <li className="nav_item"><a href="#" className="nav_link">UPCOMING TREK</a></li>
+            <li className="nav_item"><a href="#" className="nav_link">ABOUT</a></li>
+            <li className="nav_item"><a href="#" className="nav_link">CONTACT</a></li>
         </ul>
         <div onClick= {navToggle} className={toggleIcon}>
             <div className="line1"></div>

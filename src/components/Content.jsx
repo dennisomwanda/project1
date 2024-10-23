@@ -10,8 +10,8 @@ function Content(){
             <div className="content">
                 <div className="name">
                     <div className="allHeading">
-                        <h1>BUSINESS</h1>
-                        <h1>DEVELOPMENT</h1>
+                        <h1 className="heading2">BUSINESS</h1>
+                        <h1 className="heading3">DEVELOPMENT</h1>
                     </div>
 
 

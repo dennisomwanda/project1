@@ -3,35 +3,55 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 62.5%;
+    font-size: 60.5%;
+    box-sizing: border-box;
 }
 body {
     font-size: 1.6rem;
-    background-color: black;
+    background-color: #252422;
+    
+    
 }
 li {
     list-style: none;
+    padding: 1rem;
 }
 a {
     text-decoration: none;
     color: white;
+    padding: 2rem;
+    font-weight: bold;
+    
 }
 button {
     background: #e07a5f;
-    border: 5px;
-    padding: 0.6rem;
-    border-radius: 0.6rem;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
 }
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8vh;
-    background: black;
+    background: #252422;
+    padding: 6rem;
 }
 .nav_brand {
-    text-transform: uppercase;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+img {
+    max-width: 200px;
 }
 .nav_menu {
     display: flex;
@@ -57,11 +77,11 @@ button {
     }
     .nav_menu {
         position: fixed;
-        top: 7vh;
+        top: 10vh;
         right: 0;
         width: 50%;
-        height: 93vh;
-        background: rgb(0, 28, 73);
+        height: 75vh;
+        background: black;
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease;
