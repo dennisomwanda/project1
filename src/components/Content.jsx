@@ -22,7 +22,6 @@ function Content(props){
                         <h1 className="heading3">DEVELOPMENT</h1>
                     </div>
 
-
                     <div className="details">
                         <p>“To be successful, you have to have your heart in your business,<br />
                         and your business in your heart. <br />
@@ -41,7 +40,7 @@ function Content(props){
                               <a href="https://www.facebook.com/Jamesmacharia"><h1 className="icons"><FaFacebook color="#e07a5f"/></h1></a>
                               <a href="https://twitter.com/"><h1 className="icons"><FaTwitter color="#e07a5f"/></h1></a>
                               <a href="https://wa.me/+254701634577?"><h1 className="icons"><FaWhatsapp color="#e07a5f"/></h1></a>
-                              <a href="https://www.linkedin.com/in/james-macharia/-26181719a/"><h1 className="icons"><FaLinkedin color="#e07a5f"/></h1></a> 
+                              <a href="https://www.linkedin.com/"><h1 className="icons"><FaLinkedin color="#e07a5f"/></h1></a> 
                     </div>
                 </div>
                 <div className="imageContainer">
