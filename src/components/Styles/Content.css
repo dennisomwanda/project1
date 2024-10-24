@@ -44,10 +44,16 @@
 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-top: 30px;
     
+}
+
+.icons
+{
+    margin: 20px;
+    cursor: pointer;
 }
 
 h1{

@@ -6,7 +6,7 @@ function App() {
     return (
     <div>
         <Navbar />
-        <Content/>
+        <Content icon="fa-brands fa-facebook" />
     </div>
     );
 }
