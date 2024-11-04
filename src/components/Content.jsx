@@ -1,8 +1,16 @@
 import React from "react";
 
+import { FaFacebook } from "react-icons/fa";
+
+import { FaTwitter } from "react-icons/fa";
+
+import { FaWhatsapp } from "react-icons/fa";
+
+import { FaLinkedin } from "react-icons/fa";
+
 import "./Styles/Content.css"
 
-function Content(){
+function Content(props){
 
     return(
         <React.Fragment>
@@ -14,7 +22,6 @@ function Content(){
                         <h1 className="heading3">DEVELOPMENT</h1>
                     </div>
 
-
                     <div className="details">
                         <p>“To be successful, you have to have your heart in your business,<br />
                         and your business in your heart. <br />
@@ -22,7 +29,18 @@ function Content(){
                     </div>
 
                     <div className="socialMedia">
-                        <p>all links to socila media will be displayed here <span>😒😒 </span></p>
+
+                        {/* 
+                            Steps to follow using icons from FontAwesome
+                            1. Run this commnad "npm i react-icon --save" -this will import icons from fontawesome servers
+                            2. import the installed icons to your react component syntax as below
+                                => " import {<Fa<iconName>} from react-icon/fa" 
+                            3. Start using the imported icon as example shown "<h1><FaiconName/></h1> "
+                        */}
+                              <a href="https://www.facebook.com/Jamesmacharia"><h1 className="icons"><FaFacebook color="#e07a5f"/></h1></a>
+                              <a href="https://twitter.com/"><h1 className="icons"><FaTwitter color="#e07a5f"/></h1></a>
+                              <a href="https://wa.me/+254701634577?"><h1 className="icons"><FaWhatsapp color="#e07a5f"/></h1></a>
+                              <a href="https://www.linkedin.com/"><h1 className="icons"><FaLinkedin color="#e07a5f"/></h1></a> 
                     </div>
                 </div>
                 <div className="imageContainer">
@@ -30,10 +48,7 @@ function Content(){
                 </div>
 
             </div>
-            
-
-
-            
+ 
         </React.Fragment>
     )
 
